@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'jen/firstapp'
+
   get 'pages/info'
 
   root :to => redirect('/ideas')
